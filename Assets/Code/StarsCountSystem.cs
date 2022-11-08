@@ -16,6 +16,10 @@ public class StarsCountSystem : MonoBehaviour
         
     }
 
+    public void AddOneStare()
+    {
+		stars_count++;    	
+    }
     // Update is called once per frame
     void Update()
     {
